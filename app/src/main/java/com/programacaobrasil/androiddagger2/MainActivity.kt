@@ -6,14 +6,14 @@ import dagger.internal.DaggerCollections
 
 class MainActivity : AppCompatActivity() {
 
-    private var car: Car? = null
+    //private var car: Car? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val component = DaggerCarComponent.create();
+        /*val component = DaggerCarComponent.create();
         car = component.getCar()
-        car?.drive()
+        car?.drive()*/
     }
 }
